@@ -1,0 +1,35 @@
+/* Center the content in the middle of the screen */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Styling for the main container */
+.container {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+/* Styling for the component text */
+.container h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333333;
+}
+
+.container p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #666666;
+}
